@@ -5,7 +5,7 @@ To run this project locally, it is necessary to have NodeJS installed on the mac
 To run on your machine, execute the command in the terminal:
 
 ```zsh
-git clone ....
+git clone https://github.com/victorradael/vulca-project.git
 ```
 
 open the project folder with the command prompt and run the command:
