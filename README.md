@@ -1,4 +1,12 @@
+<div align="center">
+
 # Vulcanet Project
+
+# peçaZap ![Logo peçaZap](./public/assets/dialog.svg)
+
+### Project developed as a selection process for VulcaNet front-end developer.
+
+</div>
 
 To run this project locally, it is necessary to have NodeJS installed on the machine.
 
