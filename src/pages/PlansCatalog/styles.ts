@@ -18,7 +18,7 @@ export const Switch = styled.div`
   align-items: center;
   justify-content: center;
 
-  padding: 24px;
+  padding: 24px 0 32px 0;
 
   div {
     background: #f4f7fc;
@@ -64,7 +64,7 @@ export const PlanBox = styled.div`
   border-left: 1px solid #ddd;
 
   h6 {
-    margin: 8px 0 0 0;
+    margin: 16px 0 0 0;
     font-size: 14px;
     font-weight: normal;
     color: #999;
@@ -73,7 +73,7 @@ export const PlanBox = styled.div`
   h3 {
     font-size: 32px;
     color: #00a6ce;
-    margin: 16px 0 0 0;
+    margin: 16px 0 8px 0;
   }
 `;
 
@@ -115,6 +115,7 @@ export const Button = styled.button<IProps>`
     css`
       background: #43b998;
       color: #fff;
+      cursor: not-allowed;
     `}
 `;
 

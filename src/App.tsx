@@ -1,11 +1,11 @@
 import React from "react";
 
-import Monthly from "./pages/Monthly";
+import PlansCatalog from "./pages/PlansCatalog";
 
 const App: React.FC = () => {
   return (
     <>
-      <Monthly />
+      <PlansCatalog />
     </>
   );
 };
