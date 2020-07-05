@@ -254,7 +254,15 @@ const PlansCatalog: React.FC = () => {
           </p>
         </section>
         <div>
-          <button onClick={() => alert("Teste")}>Contratar</button>
+          <button
+            onClick={() =>
+              alert(
+                `Você conratou o plano ${planSelected.name} - ${periodSelect.name}`
+              )
+            }
+          >
+            Contratar
+          </button>
         </div>
       </Footer>
     </Container>
